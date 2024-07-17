@@ -1,34 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ELEYDEV\\Desktop\\MyProjects\\CarRental_BackEnd\\CarRental_BackEnd\\",
+  "WorkspaceRootPath": "C:\\Users\\ELEYDEV\\Desktop\\MyProjects\\CarRental_BackEnd\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A9204954-7DDC-4A7A-8C9D-18FB7E86CDB3}|ConsoleUI\\ConsoleUI.csproj|c:\\users\\eleydev\\desktop\\myprojects\\carrental_backend\\carrental_backend\\consoleui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9204954-7DDC-4A7A-8C9D-18FB7E86CDB3}|ConsoleUI\\ConsoleUI.csproj|solutionrelative:consoleui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26645A1D-2AEC-4D19-9E93-A031D46AC2FB}|Business\\Business.csproj|c:\\users\\eleydev\\desktop\\myprojects\\carrental_backend\\carrental_backend\\business\\concrete\\carmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{26645A1D-2AEC-4D19-9E93-A031D46AC2FB}|Business\\Business.csproj|c:\\users\\eleydev\\desktop\\myprojects\\carrental_backend\\business\\concrete\\carmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26645A1D-2AEC-4D19-9E93-A031D46AC2FB}|Business\\Business.csproj|solutionrelative:business\\concrete\\carmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26645A1D-2AEC-4D19-9E93-A031D46AC2FB}|Business\\Business.csproj|c:\\users\\eleydev\\desktop\\myprojects\\carrental_backend\\carrental_backend\\business\\abstract\\icarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{26645A1D-2AEC-4D19-9E93-A031D46AC2FB}|Business\\Business.csproj|c:\\users\\eleydev\\desktop\\myprojects\\carrental_backend\\business\\concrete\\colormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26645A1D-2AEC-4D19-9E93-A031D46AC2FB}|Business\\Business.csproj|solutionrelative:business\\concrete\\colormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26645A1D-2AEC-4D19-9E93-A031D46AC2FB}|Business\\Business.csproj|c:\\users\\eleydev\\desktop\\myprojects\\carrental_backend\\business\\abstract\\icarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26645A1D-2AEC-4D19-9E93-A031D46AC2FB}|Business\\Business.csproj|solutionrelative:business\\abstract\\icarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9969D9E3-008A-4F73-A3CB-9769EC3EA185}|DataAccess\\DataAccess.csproj|c:\\users\\eleydev\\desktop\\myprojects\\carrental_backend\\carrental_backend\\dataaccess\\concrete\\inmemory\\inmemorycardal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9969D9E3-008A-4F73-A3CB-9769EC3EA185}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\inmemory\\inmemorycardal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6B05D65-D7DD-4D26-B6F1-3E453C053E59}|Entities\\Entities.csproj|c:\\users\\eleydev\\desktop\\myprojects\\carrental_backend\\carrental_backend\\entities\\concrete\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A6B05D65-D7DD-4D26-B6F1-3E453C053E59}|Entities\\Entities.csproj|c:\\users\\eleydev\\desktop\\myprojects\\carrental_backend\\entities\\concrete\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A6B05D65-D7DD-4D26-B6F1-3E453C053E59}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6B05D65-D7DD-4D26-B6F1-3E453C053E59}|Entities\\Entities.csproj|c:\\users\\eleydev\\desktop\\myprojects\\carrental_backend\\carrental_backend\\entities\\abstract\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6B05D65-D7DD-4D26-B6F1-3E453C053E59}|Entities\\Entities.csproj|solutionrelative:entities\\abstract\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A6B05D65-D7DD-4D26-B6F1-3E453C053E59}|Entities\\Entities.csproj|c:\\users\\eleydev\\desktop\\myprojects\\carrental_backend\\entities\\concrete\\color.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6B05D65-D7DD-4D26-B6F1-3E453C053E59}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\color.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9969D9E3-008A-4F73-A3CB-9769EC3EA185}|DataAccess\\DataAccess.csproj|c:\\users\\eleydev\\desktop\\myprojects\\carrental_backend\\carrental_backend\\dataaccess\\abstract\\icardal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9969D9E3-008A-4F73-A3CB-9769EC3EA185}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\abstract\\icardal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A6B05D65-D7DD-4D26-B6F1-3E453C053E59}|Entities\\Entities.csproj|c:\\users\\eleydev\\desktop\\myprojects\\carrental_backend\\entities\\concrete\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6B05D65-D7DD-4D26-B6F1-3E453C053E59}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,97 +34,79 @@
       "DocumentGroups": [
         {
           "DockedWidth": 291,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ELEYDEV\\Desktop\\MyProjects\\CarRental_BackEnd\\CarRental_BackEnd\\ConsoleUI\\Program.cs",
-              "RelativeDocumentMoniker": "ConsoleUI\\Program.cs",
-              "ToolTip": "C:\\Users\\ELEYDEV\\Desktop\\MyProjects\\CarRental_BackEnd\\CarRental_BackEnd\\ConsoleUI\\Program.cs",
-              "RelativeToolTip": "ConsoleUI\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "DocumentIndex": 4,
+              "Title": "Color.cs",
+              "DocumentMoniker": "C:\\Users\\ELEYDEV\\Desktop\\MyProjects\\CarRental_BackEnd\\Entities\\Concrete\\Color.cs",
+              "RelativeDocumentMoniker": "Entities\\Concrete\\Color.cs",
+              "ToolTip": "C:\\Users\\ELEYDEV\\Desktop\\MyProjects\\CarRental_BackEnd\\Entities\\Concrete\\Color.cs",
+              "RelativeToolTip": "Entities\\Concrete\\Color.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T16:36:40.993Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-17T17:04:32.614Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CarManager.cs",
-              "DocumentMoniker": "C:\\Users\\ELEYDEV\\Desktop\\MyProjects\\CarRental_BackEnd\\CarRental_BackEnd\\Business\\Concrete\\CarManager.cs",
-              "RelativeDocumentMoniker": "Business\\Concrete\\CarManager.cs",
-              "ToolTip": "C:\\Users\\ELEYDEV\\Desktop\\MyProjects\\CarRental_BackEnd\\CarRental_BackEnd\\Business\\Concrete\\CarManager.cs",
-              "RelativeToolTip": "Business\\Concrete\\CarManager.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAmwBsAAAAAAAAA",
+              "DocumentIndex": 5,
+              "Title": "Brand.cs",
+              "DocumentMoniker": "C:\\Users\\ELEYDEV\\Desktop\\MyProjects\\CarRental_BackEnd\\Entities\\Concrete\\Brand.cs",
+              "RelativeDocumentMoniker": "Entities\\Concrete\\Brand.cs",
+              "ToolTip": "C:\\Users\\ELEYDEV\\Desktop\\MyProjects\\CarRental_BackEnd\\Entities\\Concrete\\Brand.cs",
+              "RelativeToolTip": "Entities\\Concrete\\Brand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T16:22:53.759Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-17T17:04:27.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\ELEYDEV\\Desktop\\MyProjects\\CarRental_BackEnd\\Entities\\Concrete\\Car.cs",
+              "RelativeDocumentMoniker": "Entities\\Concrete\\Car.cs",
+              "ToolTip": "C:\\Users\\ELEYDEV\\Desktop\\MyProjects\\CarRental_BackEnd\\Entities\\Concrete\\Car.cs",
+              "RelativeToolTip": "Entities\\Concrete\\Car.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T17:04:00.368Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ICarService.cs",
-              "DocumentMoniker": "C:\\Users\\ELEYDEV\\Desktop\\MyProjects\\CarRental_BackEnd\\CarRental_BackEnd\\Business\\Abstract\\ICarService.cs",
+              "DocumentMoniker": "C:\\Users\\ELEYDEV\\Desktop\\MyProjects\\CarRental_BackEnd\\Business\\Abstract\\ICarService.cs",
               "RelativeDocumentMoniker": "Business\\Abstract\\ICarService.cs",
-              "ToolTip": "C:\\Users\\ELEYDEV\\Desktop\\MyProjects\\CarRental_BackEnd\\CarRental_BackEnd\\Business\\Abstract\\ICarService.cs",
+              "ToolTip": "C:\\Users\\ELEYDEV\\Desktop\\MyProjects\\CarRental_BackEnd\\Business\\Abstract\\ICarService.cs",
               "RelativeToolTip": "Business\\Abstract\\ICarService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T15:48:28.197Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-17T16:49:27.059Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "InMemoryCarDal.cs",
-              "DocumentMoniker": "C:\\Users\\ELEYDEV\\Desktop\\MyProjects\\CarRental_BackEnd\\CarRental_BackEnd\\DataAccess\\Concrete\\InMemory\\InMemoryCarDal.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Concrete\\InMemory\\InMemoryCarDal.cs",
-              "ToolTip": "C:\\Users\\ELEYDEV\\Desktop\\MyProjects\\CarRental_BackEnd\\CarRental_BackEnd\\DataAccess\\Concrete\\InMemory\\InMemoryCarDal.cs",
-              "RelativeToolTip": "DataAccess\\Concrete\\InMemory\\InMemoryCarDal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAAA2AAAA",
+              "DocumentIndex": 1,
+              "Title": "ColorManager.cs",
+              "DocumentMoniker": "C:\\Users\\ELEYDEV\\Desktop\\MyProjects\\CarRental_BackEnd\\Business\\Concrete\\ColorManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\ColorManager.cs",
+              "ToolTip": "C:\\Users\\ELEYDEV\\Desktop\\MyProjects\\CarRental_BackEnd\\Business\\Concrete\\ColorManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\ColorManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T15:44:44.222Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-17T16:47:06.822Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ICarDal.cs",
-              "DocumentMoniker": "C:\\Users\\ELEYDEV\\Desktop\\MyProjects\\CarRental_BackEnd\\CarRental_BackEnd\\DataAccess\\Abstract\\ICarDal.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Abstract\\ICarDal.cs",
-              "ToolTip": "C:\\Users\\ELEYDEV\\Desktop\\MyProjects\\CarRental_BackEnd\\CarRental_BackEnd\\DataAccess\\Abstract\\ICarDal.cs",
-              "RelativeToolTip": "DataAccess\\Abstract\\ICarDal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBIAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "CarManager.cs",
+              "DocumentMoniker": "C:\\Users\\ELEYDEV\\Desktop\\MyProjects\\CarRental_BackEnd\\Business\\Concrete\\CarManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\CarManager.cs",
+              "ToolTip": "C:\\Users\\ELEYDEV\\Desktop\\MyProjects\\CarRental_BackEnd\\Business\\Concrete\\CarManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\CarManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T15:36:29.391Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Car.cs",
-              "DocumentMoniker": "C:\\Users\\ELEYDEV\\Desktop\\MyProjects\\CarRental_BackEnd\\CarRental_BackEnd\\Entities\\Concrete\\Car.cs",
-              "RelativeDocumentMoniker": "Entities\\Concrete\\Car.cs",
-              "ToolTip": "C:\\Users\\ELEYDEV\\Desktop\\MyProjects\\CarRental_BackEnd\\CarRental_BackEnd\\Entities\\Concrete\\Car.cs",
-              "RelativeToolTip": "Entities\\Concrete\\Car.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T15:29:01.591Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IEntity.cs",
-              "DocumentMoniker": "C:\\Users\\ELEYDEV\\Desktop\\MyProjects\\CarRental_BackEnd\\CarRental_BackEnd\\Entities\\Abstract\\IEntity.cs",
-              "RelativeDocumentMoniker": "Entities\\Abstract\\IEntity.cs",
-              "ToolTip": "C:\\Users\\ELEYDEV\\Desktop\\MyProjects\\CarRental_BackEnd\\CarRental_BackEnd\\Entities\\Abstract\\IEntity.cs",
-              "RelativeToolTip": "Entities\\Abstract\\IEntity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T15:28:05.235Z",
+              "WhenOpened": "2024-07-17T16:47:06.269Z",
               "EditorCaption": ""
             }
           ]

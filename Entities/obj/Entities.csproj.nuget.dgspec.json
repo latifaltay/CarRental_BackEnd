@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ELEYDEV\\Desktop\\MyProjects\\CarRental_BackEnd\\CarRental_BackEnd\\Entities\\Entities.csproj": {}
+    "C:\\Users\\ELEYDEV\\Desktop\\MyProjects\\CarRental_BackEnd\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ELEYDEV\\Desktop\\MyProjects\\CarRental_BackEnd\\CarRental_BackEnd\\Entities\\Entities.csproj": {
+    "C:\\Users\\ELEYDEV\\Desktop\\MyProjects\\CarRental_BackEnd\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ELEYDEV\\Desktop\\MyProjects\\CarRental_BackEnd\\CarRental_BackEnd\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\ELEYDEV\\Desktop\\MyProjects\\CarRental_BackEnd\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\ELEYDEV\\Desktop\\MyProjects\\CarRental_BackEnd\\CarRental_BackEnd\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\ELEYDEV\\Desktop\\MyProjects\\CarRental_BackEnd\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\ELEYDEV\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ELEYDEV\\Desktop\\MyProjects\\CarRental_BackEnd\\CarRental_BackEnd\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\ELEYDEV\\Desktop\\MyProjects\\CarRental_BackEnd\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ELEYDEV\\AppData\\Roaming\\NuGet\\NuGet.Config",
