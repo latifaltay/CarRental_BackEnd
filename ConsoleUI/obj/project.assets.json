@@ -2832,11 +2832,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ELEYDEV\\Desktop\\MyProjects\\CarRental_BackEnd\\ConsoleUI\\ConsoleUI.csproj",
+      "projectUniqueName": "C:\\Users\\ELEYDEV\\Desktop\\C#\\EnginHoca\\CarRental_BackEnd\\ConsoleUI\\ConsoleUI.csproj",
       "projectName": "ConsoleUI",
-      "projectPath": "C:\\Users\\ELEYDEV\\Desktop\\MyProjects\\CarRental_BackEnd\\ConsoleUI\\ConsoleUI.csproj",
+      "projectPath": "C:\\Users\\ELEYDEV\\Desktop\\C#\\EnginHoca\\CarRental_BackEnd\\ConsoleUI\\ConsoleUI.csproj",
       "packagesPath": "C:\\Users\\ELEYDEV\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ELEYDEV\\Desktop\\MyProjects\\CarRental_BackEnd\\ConsoleUI\\obj\\",
+      "outputPath": "C:\\Users\\ELEYDEV\\Desktop\\C#\\EnginHoca\\CarRental_BackEnd\\ConsoleUI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ELEYDEV\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2847,21 +2847,20 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\ELEYDEV\\Desktop\\MyProjects\\CarRental_BackEnd\\Business\\Business.csproj": {
-              "projectPath": "C:\\Users\\ELEYDEV\\Desktop\\MyProjects\\CarRental_BackEnd\\Business\\Business.csproj"
+            "C:\\Users\\ELEYDEV\\Desktop\\C#\\EnginHoca\\CarRental_BackEnd\\Business\\Business.csproj": {
+              "projectPath": "C:\\Users\\ELEYDEV\\Desktop\\C#\\EnginHoca\\CarRental_BackEnd\\Business\\Business.csproj"
             },
-            "C:\\Users\\ELEYDEV\\Desktop\\MyProjects\\CarRental_BackEnd\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\ELEYDEV\\Desktop\\MyProjects\\CarRental_BackEnd\\DataAccess\\DataAccess.csproj"
+            "C:\\Users\\ELEYDEV\\Desktop\\C#\\EnginHoca\\CarRental_BackEnd\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\ELEYDEV\\Desktop\\C#\\EnginHoca\\CarRental_BackEnd\\DataAccess\\DataAccess.csproj"
             },
-            "C:\\Users\\ELEYDEV\\Desktop\\MyProjects\\CarRental_BackEnd\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\ELEYDEV\\Desktop\\MyProjects\\CarRental_BackEnd\\Entities\\Entities.csproj"
+            "C:\\Users\\ELEYDEV\\Desktop\\C#\\EnginHoca\\CarRental_BackEnd\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\ELEYDEV\\Desktop\\C#\\EnginHoca\\CarRental_BackEnd\\Entities\\Entities.csproj"
             }
           }
         }
@@ -2870,11 +2869,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -2896,7 +2890,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
