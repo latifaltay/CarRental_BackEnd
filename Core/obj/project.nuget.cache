@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jpM/XJFovo0=",
+  "dgSpecHash": "do48+jXRmzke/CA3CUGRk4zN1usNMaNiAEPdV4spL5+CqtQBZ6XqjV6QRVI7oYKTChUuvravOsZ13CiXzmr3Rg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ELEYDEV\\Desktop\\MyProjects\\CarRental\\CarRental_BackEnd\\Core\\Core.csproj",
+  "projectFilePath": "C:\\Users\\ELEYDEV\\Desktop\\C#\\EnginHoca\\CarRental_BackEnd\\Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ELEYDEV\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\ELEYDEV\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
