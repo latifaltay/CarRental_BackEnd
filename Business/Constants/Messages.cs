@@ -21,6 +21,8 @@ namespace Business.Constants
         public static string CarNameInvalid = "Araç adı geçersiz. En az 2 karakter uzunluğunda olmalıdır.";
         public static string CarAdded = "Araç başarıyla eklendi.";
         public static string CarNotDelete = "Araç silinemedi.";
+        public static string CarNotFound = "Araç bulunamadı.";
+        public static string CarUpdated = "Araç başarıyla güncellendi.";
         public static string CarDeleted = "Araç başarıyla silindi.";
         public static string CarsListed = "Araçlar başarıyla listelendi.";
         public static string CarIsNotAvailable = "Araç kiralamaya uygun değil.";
