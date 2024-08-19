@@ -10,13 +10,25 @@ namespace DataAccess.Concrete.EntityFramework
 {
     public class CarRentalContex : DbContext
     {
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
+        //    optionsBuilder.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB; Database=CarRental; Trusted_Connection=true");
+        //}
+
+        public CarRentalContex(DbContextOptions<CarRentalContex> dbContextOptions) : base(dbContextOptions)
         {
-            optionsBuilder.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB; Database=CarRental; Trusted_Connection=true");
+            
         }
+
+        public CarRentalContex()
+        {
+        }
+
         public DbSet<Brand> Brands { get; set; }
         public DbSet<Car> Cars { get; set; }
         public DbSet<Color> Colors { get; set; }
+        public DbSet<Customer> Customers { get; set; }
+        public DbSet<Rental> Rentals { get; set; }
         public DbSet<User> Users { get; set; }
 
     }

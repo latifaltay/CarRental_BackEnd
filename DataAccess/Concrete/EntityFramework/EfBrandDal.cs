@@ -12,6 +12,9 @@ namespace DataAccess.Concrete.EntityFramework
 {
     public class EfBrandDal : EfEntityRepositoryBase<Brand,CarRentalContex>, IBrandDal
     {
-        
+        public EfBrandDal(CarRentalContex carRentalContex) : base(carRentalContex)
+        {
+
+        }
     }
 }

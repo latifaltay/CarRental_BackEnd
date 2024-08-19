@@ -9,9 +9,12 @@ namespace Entities.Concrete
 {
     public class Customer:IEntity
     {
-        // ilişki kurulacak
-        public int UserId { get; set; }
+        public int id { get; set; }
         public string CompanyName { get; set; }
+        public int UserId { get; set; }
+
+
+        public User user { get; set; } //nav prop        
 
     }
 }

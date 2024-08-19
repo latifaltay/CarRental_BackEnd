@@ -4111,11 +4111,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ELEYDEV\\Desktop\\C#\\EnginHoca\\CarRental_BackEnd\\Core\\Core.csproj",
+      "projectUniqueName": "C:\\Users\\ELEYDEV\\Desktop\\CarRental_BackEnd\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "C:\\Users\\ELEYDEV\\Desktop\\C#\\EnginHoca\\CarRental_BackEnd\\Core\\Core.csproj",
+      "projectPath": "C:\\Users\\ELEYDEV\\Desktop\\CarRental_BackEnd\\Core\\Core.csproj",
       "packagesPath": "C:\\Users\\ELEYDEV\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ELEYDEV\\Desktop\\C#\\EnginHoca\\CarRental_BackEnd\\Core\\obj\\",
+      "outputPath": "C:\\Users\\ELEYDEV\\Desktop\\CarRental_BackEnd\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ELEYDEV\\AppData\\Roaming\\NuGet\\NuGet.Config",

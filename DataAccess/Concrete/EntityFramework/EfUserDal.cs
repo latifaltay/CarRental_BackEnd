@@ -11,6 +11,9 @@ namespace DataAccess.Concrete.EntityFramework
 {
     public class EfUserDal : EfEntityRepositoryBase<User, CarRentalContex>, IUserDal
     {
+        public EfUserDal(CarRentalContex carRentalContex) : base(carRentalContex)
+        {
 
+        }
     }
 }

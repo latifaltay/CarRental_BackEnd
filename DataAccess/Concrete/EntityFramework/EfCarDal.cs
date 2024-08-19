@@ -13,8 +13,15 @@ namespace DataAccess.Concrete.EntityFramework
 {
     public class EfCarDal : EfEntityRepositoryBase<Car, CarRentalContex>, ICarDal
     {
+
+        public EfCarDal(CarRentalContex carRentalContex) : base(carRentalContex)
+        {
+            
+        }
+
         public List<CarDetailDto> GetCarDetails() 
         {
+
             using (CarRentalContex contex = new CarRentalContex())
             {
                 var result = from car in contex.Cars
