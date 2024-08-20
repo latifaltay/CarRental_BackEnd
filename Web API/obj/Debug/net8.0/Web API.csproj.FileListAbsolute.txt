@@ -150,7 +150,6 @@ C:\Users\ELEYDEV\Desktop\CarRental_BackEnd\Web API\obj\Debug\net8.0\staticwebass
 C:\Users\ELEYDEV\Desktop\CarRental_BackEnd\Web API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Web API.props
 C:\Users\ELEYDEV\Desktop\CarRental_BackEnd\Web API\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\ELEYDEV\Desktop\CarRental_BackEnd\Web API\obj\Debug\net8.0\scopedcss\bundle\Web API.styles.css
-C:\Users\ELEYDEV\Desktop\CarRental_BackEnd\Web API\obj\Debug\net8.0\Web API.csproj.CopyComplete
 C:\Users\ELEYDEV\Desktop\CarRental_BackEnd\Web API\obj\Debug\net8.0\Web API.dll
 C:\Users\ELEYDEV\Desktop\CarRental_BackEnd\Web API\obj\Debug\net8.0\refint\Web API.dll
 C:\Users\ELEYDEV\Desktop\CarRental_BackEnd\Web API\obj\Debug\net8.0\Web API.pdb
@@ -227,3 +226,5 @@ C:\Users\ELEYDEV\Desktop\CarRental_BackEnd\Web API\bin\Debug\net8.0\Autofac.dll
 C:\Users\ELEYDEV\Desktop\CarRental_BackEnd\Web API\bin\Debug\net8.0\Autofac.Extensions.DependencyInjection.dll
 C:\Users\ELEYDEV\Desktop\CarRental_BackEnd\Web API\bin\Debug\net8.0\Autofac.Extras.DynamicProxy.dll
 C:\Users\ELEYDEV\Desktop\CarRental_BackEnd\Web API\bin\Debug\net8.0\Castle.Core.dll
+C:\Users\ELEYDEV\Desktop\CarRental_BackEnd\Web API\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\ELEYDEV\Desktop\CarRental_BackEnd\Web API\obj\Debug\net8.0\Web API.csproj.Up2Date
