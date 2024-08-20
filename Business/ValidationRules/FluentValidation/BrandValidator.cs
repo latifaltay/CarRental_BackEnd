@@ -12,10 +12,10 @@ namespace Business.ValidationRules.FluentValidation
     {
         public BrandValidator() 
         {
-            RuleFor(brand => brand.Name).NotNull().WithMessage("Brand name cannot be null.");
-            RuleFor(brand => brand.Name).NotEmpty().WithMessage("Brand name cannot be empty.");
-            RuleFor(brand => brand.Name).MinimumLength(2).WithMessage("Brand name must be at least 2 characters long.");
-            RuleFor(brand => brand.Name).MaximumLength(50).WithMessage("Brand name must be at most 50 characters long.");
+            RuleFor(x => x.Name).NotNull().WithMessage("Brand name cannot be null.");
+            RuleFor(x => x.Name).NotEmpty().WithMessage("Brand name cannot be empty.");
+            RuleFor(x => x.Name).MinimumLength(2).WithMessage("Brand name must be at least 2 characters long.");
+            RuleFor(x => x.Name).MaximumLength(50).WithMessage("Brand name must be at most 50 characters long.");
         }
     }
 }
