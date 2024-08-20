@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace DataAccess.Migrations
 {
-    [DbContext(typeof(CarRentalContex))]
+    [DbContext(typeof(CarRentalContext))]
     [Migration("20240817221008_firstMig")]
     partial class firstMig
     {

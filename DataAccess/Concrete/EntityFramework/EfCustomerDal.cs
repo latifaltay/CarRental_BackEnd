@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    public class EfCustomerDal : EfEntityRepositoryBase<Customer, CarRentalContex>, ICustomerDal
+    public class EfCustomerDal : EfEntityRepositoryBase<Customer, CarRentalContext>, ICustomerDal
     {
-        public EfCustomerDal(CarRentalContex carRentalContex) : base(carRentalContex)
+        public EfCustomerDal(CarRentalContext carRentalContex) : base(carRentalContex)
         {
             
         }

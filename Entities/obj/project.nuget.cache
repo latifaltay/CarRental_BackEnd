@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "5DX6V72AEHo=",
+  "dgSpecHash": "jTOqumz4VjSfY289FVUxmZ/sz9GYYhQ8KhL+Te3YqtZ3e05ad1PY7FaTTn0WbsS2efSPBqeHj1miMh7wL59doQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\ELEYDEV\\Desktop\\CarRental_BackEnd\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ELEYDEV\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\ELEYDEV\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\ELEYDEV\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",
     "C:\\Users\\ELEYDEV\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\ELEYDEV\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\ELEYDEV\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.5\\microsoft.data.sqlclient.5.1.5.nupkg.sha512",

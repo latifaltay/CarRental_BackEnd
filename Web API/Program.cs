@@ -1,10 +1,13 @@
 using Autofac;
+using Autofac.Core;
 using Autofac.Extensions.DependencyInjection;
 using Business.Abstract;
 using Business.Concrete;
 using Business.DependencyResolvers.Autofac;
+using Business.ValidationRules.FluentValidation;
 using DataAccess.Abstract;
 using DataAccess.Concrete.EntityFramework;
+using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,37 +16,21 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
-builder.Services.AddDbContext<CarRentalContex>(cfg =>
+builder.Services.AddDbContext<CarRentalContext>(cfg =>
 {
     cfg.UseSqlServer(builder.Configuration.GetSection("ConnectionStrings:devDb").Value);
 });
 
-//builder.Services.Configure<CarRentalContex>(
-//    builder.Configuration.GetSection("ConnectionStrings:devDb"));
 
-
-//builder.Services.AddDbContext<CarRentalContex>(cfg => {
-//    cfg.UseSqlServer(builder.Configuration.GetConnectionString("devDb"));
-//});
-
-
-//builder.Services.AddSingleton<IBrandService, BrandManager>();
-//builder.Services.AddSingleton<IBrandDal, EfBrandDal>();
-
-//builder.Services.AddSingleton<ICarService, CarManager>();
-//builder.Services.AddSingleton<ICarDal, EfCarDal>();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddValidatorsFromAssemblyContaining<CarValidator>();
 
 
 // Autofac implementasyonu
-//builder.Host.UseServiceProviderFactory(services => new AutofacServiceProviderFactory()).
-//    ConfigureContainer<ContainerBuilder>(builder =>
-//    { builder.RegisterModule(new AutofacBusinessModule()); });
-
 builder.Host.UseServiceProviderFactory(services => new AutofacServiceProviderFactory()).
     ConfigureContainer<ContainerBuilder>(builder =>
     { builder.RegisterModule(new AutofacBusinessModule()); });

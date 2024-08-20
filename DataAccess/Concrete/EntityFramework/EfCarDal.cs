@@ -11,18 +11,21 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    public class EfCarDal : EfEntityRepositoryBase<Car, CarRentalContex>, ICarDal
+    public class EfCarDal : EfEntityRepositoryBase<Car, CarRentalContext>, ICarDal
     {
 
-        public EfCarDal(CarRentalContex carRentalContex) : base(carRentalContex)
+        CarRentalContext _carContex;
+
+        public EfCarDal(CarRentalContext carRentalContex, CarRentalContext carContex) : base(carRentalContex)
         {
-            
+            _carContex = carContex;
         }
+
 
         public List<CarDetailDto> GetCarDetails() 
         {
 
-            using (CarRentalContex contex = new CarRentalContex())
+            using (CarRentalContext contex = new CarRentalContext())
             {
                 var result = from car in contex.Cars
                              join b in contex.Brands
@@ -40,5 +43,26 @@ namespace DataAccess.Concrete.EntityFramework
                 return result.ToList();
             }
         }
+
+        public bool IsContain(string name) 
+        {
+            var result = _carContex.Cars.Where(c => c.Name == name).FirstOrDefault();
+            
+            if (result != null)
+            {
+                return false;
+            }
+            return true;
+
+        }
+
+        // düzeltilecek
+
+        public bool IsAvailable() 
+        {
+            var result = _carContex.Cars.Any(c => c.IsAvailable == false);
+            return result;
+        }
+
     }
 }

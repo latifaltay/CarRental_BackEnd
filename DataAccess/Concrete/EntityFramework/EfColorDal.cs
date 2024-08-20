@@ -12,9 +12,9 @@ using Core.DataAccess.EntityFramework;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    public class EfColorDal : EfEntityRepositoryBase<Color, CarRentalContex>, IColorDal
+    public class EfColorDal : EfEntityRepositoryBase<Color, CarRentalContext>, IColorDal
     {
-        public EfColorDal(CarRentalContex carRentalContex) : base(carRentalContex)
+        public EfColorDal(CarRentalContext carRentalContex) : base(carRentalContex)
         {
             
         }

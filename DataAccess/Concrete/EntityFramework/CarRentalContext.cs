@@ -8,19 +8,19 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    public class CarRentalContex : DbContext
+    public class CarRentalContext : DbContext
     {
         //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         //{
         //    optionsBuilder.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB; Database=CarRental; Trusted_Connection=true");
         //}
 
-        public CarRentalContex(DbContextOptions<CarRentalContex> dbContextOptions) : base(dbContextOptions)
+        public CarRentalContext(DbContextOptions<CarRentalContext> dbContextOptions) : base(dbContextOptions)
         {
             
         }
 
-        public CarRentalContex()
+        public CarRentalContext()
         {
         }
 

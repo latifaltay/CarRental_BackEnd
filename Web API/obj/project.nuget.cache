@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "nrervBRatp8=",
+  "dgSpecHash": "t6HtHg9wrWkcQyzfHXAiwsALPrfGnjUssnA9Yvqcq5Bq2poK8U0iSQEeBlsQ4SGkEH8g0own93Ay/9iNIDQcPA==",
   "success": true,
   "projectFilePath": "C:\\Users\\ELEYDEV\\Desktop\\CarRental_BackEnd\\Web API\\Web API.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "C:\\Users\\ELEYDEV\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\ELEYDEV\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\ELEYDEV\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",
+    "C:\\Users\\ELEYDEV\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.9.2\\fluentvalidation.dependencyinjectionextensions.11.9.2.nupkg.sha512",
     "C:\\Users\\ELEYDEV\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\ELEYDEV\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\ELEYDEV\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",

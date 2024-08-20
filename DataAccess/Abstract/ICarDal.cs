@@ -12,5 +12,6 @@ namespace DataAccess.Abstract
     public interface ICarDal: IEntityRepository<Car>
     {
         List<CarDetailDto> GetCarDetails();
+        public bool IsContain(string name);
     }
 }

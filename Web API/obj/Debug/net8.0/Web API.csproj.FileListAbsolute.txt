@@ -227,4 +227,5 @@ C:\Users\ELEYDEV\Desktop\CarRental_BackEnd\Web API\bin\Debug\net8.0\Autofac.Exte
 C:\Users\ELEYDEV\Desktop\CarRental_BackEnd\Web API\bin\Debug\net8.0\Autofac.Extras.DynamicProxy.dll
 C:\Users\ELEYDEV\Desktop\CarRental_BackEnd\Web API\bin\Debug\net8.0\Castle.Core.dll
 C:\Users\ELEYDEV\Desktop\CarRental_BackEnd\Web API\bin\Debug\net8.0\FluentValidation.dll
-C:\Users\ELEYDEV\Desktop\CarRental_BackEnd\Web API\obj\Debug\net8.0\Web API.csproj.Up2Date
+C:\Users\ELEYDEV\Desktop\CarRental_BackEnd\Web API\obj\Debug\net8.0\Web API.csproj.CopyComplete
+C:\Users\ELEYDEV\Desktop\CarRental_BackEnd\Web API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll

@@ -10,11 +10,8 @@ namespace Business.ValidationRules.FluentValidation
 {
     public class CustomerValidator : AbstractValidator<Customer>
     {
-        private readonly IQueryable<Customer> _customer;
-        public CustomerValidator(IQueryable<Customer> customer)
+        public CustomerValidator()
         {
-            _customer = customer;
-
             RuleFor(x => x.CompanyName).NotEmpty().WithMessage("CompanyName cannot be empty.");
             RuleFor(x => x.CompanyName).MinimumLength(3).WithMessage("CompanyName must be at least 3 characters long.");
             RuleFor(x => x.UserId).GreaterThan(0).WithMessage("UserId must be greater than 0.");

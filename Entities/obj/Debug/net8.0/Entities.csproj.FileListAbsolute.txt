@@ -72,4 +72,4 @@ C:\Users\ELEYDEV\Desktop\CarRental_BackEnd\Entities\obj\Debug\net8.0\Entities.dl
 C:\Users\ELEYDEV\Desktop\CarRental_BackEnd\Entities\obj\Debug\net8.0\refint\Entities.dll
 C:\Users\ELEYDEV\Desktop\CarRental_BackEnd\Entities\obj\Debug\net8.0\Entities.pdb
 C:\Users\ELEYDEV\Desktop\CarRental_BackEnd\Entities\obj\Debug\net8.0\ref\Entities.dll
-C:\Users\ELEYDEV\Desktop\CarRental_BackEnd\Entities\obj\Debug\net8.0\Entities.csproj.Up2Date
+C:\Users\ELEYDEV\Desktop\CarRental_BackEnd\Entities\obj\Debug\net8.0\Entities.csproj.CopyComplete

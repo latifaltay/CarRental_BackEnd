@@ -1,4 +1,6 @@
-﻿using Entities.Concrete;
+﻿using DataAccess.Abstract;
+using DataAccess.Concrete.EntityFramework;
+using Entities.Concrete;
 using FluentValidation;
 using System;
 using System.Collections.Generic;
@@ -11,26 +13,20 @@ namespace Business.ValidationRules.FluentValidation
 {
     public class CarValidator : AbstractValidator<Car>
     {
-        private readonly IQueryable<Brand> _brand;
-        public CarValidator(IQueryable<Brand> brand) 
+        private readonly ICarDal _carDal;
+        public CarValidator(ICarDal carDal) 
         {
-            _brand = brand;
+            _carDal = carDal;
 
             RuleFor(x => x.Name).NotNull().WithMessage("Car name cannot be null.");
             RuleFor(x => x.Name).NotEmpty().WithMessage("Car name cannot be empty.");
             RuleFor(x => x.Name).MinimumLength(2).WithMessage("Car name must be at least 2 characters long.");
             RuleFor(x => x.Name).MaximumLength(50).WithMessage("Car name must be at most 50 characters long.");
-            RuleFor(x => x.BrandId).Must(IsNotBrand).WithMessage("There is no brand");
             RuleFor(x => x.ModelYear).LessThan(DateTime.Now.Year + 1).WithMessage("The car can be " + DateTime.Now.Year + "model");
             RuleFor(x => x.DailyPrice).GreaterThan(0).WithMessage("Sıfırdan büyük olmalı");
             RuleFor(x => x.Description).NotNull().WithMessage("Description name cannot be null.");
             RuleFor(x => x.Description).NotEmpty().WithMessage("Description name cannot be empty.");
+            RuleFor(x => x.Name).Must(_carDal.IsContain).WithMessage("Test");
         }
-
-        private bool IsNotBrand(int id) 
-        {
-            return _brand.Any(brand => brand.Id == id);
-        }
-
     }
 }
