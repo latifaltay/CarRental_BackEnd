@@ -13,5 +13,7 @@ namespace DataAccess.Abstract
     {
         List<CarDetailDto> GetCarDetails();
         public bool IsContain(string name);
+        public bool IsCarAvailable(int carId);
+
     }
 }

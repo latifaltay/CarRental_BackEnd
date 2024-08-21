@@ -2,6 +2,7 @@
 using DataAccess.Abstract;
 using Entities.Concrete;
 using Entities.DTOs;
+using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,11 +15,11 @@ namespace DataAccess.Concrete.EntityFramework
     public class EfCarDal : EfEntityRepositoryBase<Car, CarRentalContext>, ICarDal
     {
 
-        CarRentalContext _carContex;
+        CarRentalContext _carContext;
 
-        public EfCarDal(CarRentalContext carRentalContex, CarRentalContext carContex) : base(carRentalContex)
+        public EfCarDal(CarRentalContext carRentalContext, CarRentalContext carContext) : base(carRentalContext)
         {
-            _carContex = carContex;
+            _carContext = carContext;
         }
 
 
@@ -46,7 +47,7 @@ namespace DataAccess.Concrete.EntityFramework
 
         public bool IsContain(string name) 
         {
-            var result = _carContex.Cars.Where(c => c.Name == name).FirstOrDefault();
+            var result = _carContext.Cars.Where(c => c.Name == name).FirstOrDefault();
             
             if (result != null)
             {
@@ -56,13 +57,11 @@ namespace DataAccess.Concrete.EntityFramework
 
         }
 
-        // düzeltilecek
-
-        public bool IsAvailable() 
+        public bool IsCarAvailable(int carId)
         {
-            var result = _carContex.Cars.Any(c => c.IsAvailable == false);
-            return result;
+            var car = _carContext.Cars.FirstOrDefault(c => c.Id == carId);
+            return car != null && car.IsAvailable;
         }
-
+        
     }
 }

@@ -61,6 +61,11 @@ namespace DataAccess.Concrete.InMemory
             throw new NotImplementedException();
         }
 
+        public bool IsCarAvailable(int carId)
+        {
+            throw new NotImplementedException();
+        }
+
         public bool IsContain(string name)
         {
             throw new NotImplementedException();
