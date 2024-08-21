@@ -26,8 +26,7 @@ namespace Business.ValidationRules.FluentValidation
             RuleFor(x => x.DailyPrice).GreaterThan(0).WithMessage("Sıfırdan büyük olmalı");
             RuleFor(x => x.Description).NotNull().WithMessage("Description name cannot be null.");
             RuleFor(x => x.Description).NotEmpty().WithMessage("Description name cannot be empty.");
-            RuleFor(x => x.Name).Must(_carDal.IsContain).WithMessage("Test");
-            RuleFor(c => c.Id).Must(_carDal.IsCarAvailable).WithMessage("This car is not available.");
+            RuleFor(x => x.Name).Must(_carDal.IsContain).WithMessage("The specified car could not be found.");
         }
     }
 }

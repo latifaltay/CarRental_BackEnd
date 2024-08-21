@@ -24,7 +24,8 @@ namespace Business.Concrete
 
         public IResult Add(Car car)
         {
-            ValidationTool.Validate(_carValidator, car);
+            // AOP kurulduğu için bunu kullanmıyoruz
+            //ValidationTool.Validate(_carValidator, car);
             _carDal.Add(car);
             return new Result(true, Messages.CarAdded);
         }

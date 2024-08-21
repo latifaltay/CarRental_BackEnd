@@ -6,6 +6,7 @@ using Core.Utilities;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
+using FluentValidation;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,20 +19,21 @@ namespace Business.Concrete
     public class RentalManager : IRentalService
     {
 
-        IRentalDal _rentalDal;
-        public RentalManager(IRentalDal rentalDal)
+        private readonly IRentalDal _rentalDal;
+        private readonly ICarDal _carDal;
+        private readonly IValidator<Rental> _rentalValidator;
+
+        public RentalManager(IRentalDal rentalDal, IValidator<Rental> rentalValidator, ICarDal carDal)
         {
             _rentalDal = rentalDal;
+            _rentalValidator = rentalValidator;
+            _carDal = carDal;
         }
 
 
         public IResult Add(Rental rental)
         {
-            bool isCarAvailable = !(_rentalDal.GetAll(r => r.CarId == rental.CarId && r.ReturnDate == null).Any());
-            if (isCarAvailable == false)
-            {
-                return new ErrorResult(Messages.CarIsNotAvailable);
-            }
+            //ValidationTool.Validate(_rentalValidator, rental);
             _rentalDal.Add(rental);
             return new SuccessResult(Messages.RentalAdded);
         }
