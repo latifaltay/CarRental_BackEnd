@@ -1,12 +1,150 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\ELEYDEV\\Desktop\\CarRental_BackEnd\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{21CB8C83-D9F3-495F-A5C3-186E226FF30F}|Core\\Core.csproj|c:\\users\\eleydev\\desktop\\carrental_backend\\core\\aspects\\autofac\\validation\\validationaspect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21CB8C83-D9F3-495F-A5C3-186E226FF30F}|Core\\Core.csproj|solutionrelative:core\\aspects\\autofac\\validation\\validationaspect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{876D7B4D-8A79-47A7-925E-2A3A22E1A40F}|Web API\\Web API.csproj|c:\\users\\eleydev\\desktop\\carrental_backend\\web api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{876D7B4D-8A79-47A7-925E-2A3A22E1A40F}|Web API\\Web API.csproj|solutionrelative:web api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{876D7B4D-8A79-47A7-925E-2A3A22E1A40F}|Web API\\Web API.csproj|c:\\users\\eleydev\\desktop\\carrental_backend\\web api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{876D7B4D-8A79-47A7-925E-2A3A22E1A40F}|Web API\\Web API.csproj|solutionrelative:web api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26645A1D-2AEC-4D19-9E93-A031D46AC2FB}|Business\\Business.csproj|c:\\users\\eleydev\\desktop\\carrental_backend\\business\\concrete\\carmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26645A1D-2AEC-4D19-9E93-A031D46AC2FB}|Business\\Business.csproj|solutionrelative:business\\concrete\\carmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26645A1D-2AEC-4D19-9E93-A031D46AC2FB}|Business\\Business.csproj|c:\\users\\eleydev\\desktop\\carrental_backend\\business\\dependencyresolvers\\autofac\\autofacbusinessmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26645A1D-2AEC-4D19-9E93-A031D46AC2FB}|Business\\Business.csproj|solutionrelative:business\\dependencyresolvers\\autofac\\autofacbusinessmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21CB8C83-D9F3-495F-A5C3-186E226FF30F}|Core\\Core.csproj|c:\\users\\eleydev\\desktop\\carrental_backend\\core\\utilities\\interceptors\\aspectinterceptorselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21CB8C83-D9F3-495F-A5C3-186E226FF30F}|Core\\Core.csproj|solutionrelative:core\\utilities\\interceptors\\aspectinterceptorselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21CB8C83-D9F3-495F-A5C3-186E226FF30F}|Core\\Core.csproj|c:\\users\\eleydev\\desktop\\carrental_backend\\core\\utilities\\interceptors\\methodinterceptionbaseattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21CB8C83-D9F3-495F-A5C3-186E226FF30F}|Core\\Core.csproj|solutionrelative:core\\utilities\\interceptors\\methodinterceptionbaseattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21CB8C83-D9F3-495F-A5C3-186E226FF30F}|Core\\Core.csproj|c:\\users\\eleydev\\desktop\\carrental_backend\\core\\utilities\\interceptors\\methodinterception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21CB8C83-D9F3-495F-A5C3-186E226FF30F}|Core\\Core.csproj|solutionrelative:core\\utilities\\interceptors\\methodinterception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\ELEYDEV\\Desktop\\CarRental_BackEnd\\Web API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Web API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\ELEYDEV\\Desktop\\CarRental_BackEnd\\Web API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Web API\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-22T09:06:12.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AutofacBusinessModule.cs",
+              "DocumentMoniker": "C:\\Users\\ELEYDEV\\Desktop\\CarRental_BackEnd\\Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
+              "RelativeDocumentMoniker": "Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
+              "ToolTip": "C:\\Users\\ELEYDEV\\Desktop\\CarRental_BackEnd\\Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
+              "RelativeToolTip": "Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAC8AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T09:01:57.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CarManager.cs",
+              "DocumentMoniker": "C:\\Users\\ELEYDEV\\Desktop\\CarRental_BackEnd\\Business\\Concrete\\CarManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\CarManager.cs",
+              "ToolTip": "C:\\Users\\ELEYDEV\\Desktop\\CarRental_BackEnd\\Business\\Concrete\\CarManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\CarManager.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T08:58:54.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ValidationAspect.cs",
+              "DocumentMoniker": "C:\\Users\\ELEYDEV\\Desktop\\CarRental_BackEnd\\Core\\Aspects\\Autofac\\Validation\\ValidationAspect.cs",
+              "RelativeDocumentMoniker": "Core\\Aspects\\Autofac\\Validation\\ValidationAspect.cs",
+              "ToolTip": "C:\\Users\\ELEYDEV\\Desktop\\CarRental_BackEnd\\Core\\Aspects\\Autofac\\Validation\\ValidationAspect.cs",
+              "RelativeToolTip": "Core\\Aspects\\Autofac\\Validation\\ValidationAspect.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAUwBoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T08:24:11.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ELEYDEV\\Desktop\\CarRental_BackEnd\\Web API\\Program.cs",
+              "RelativeDocumentMoniker": "Web API\\Program.cs",
+              "ToolTip": "C:\\Users\\ELEYDEV\\Desktop\\CarRental_BackEnd\\Web API\\Program.cs",
+              "RelativeToolTip": "Web API\\Program.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T09:06:56.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AspectInterceptorSelector.cs",
+              "DocumentMoniker": "C:\\Users\\ELEYDEV\\Desktop\\CarRental_BackEnd\\Core\\Utilities\\Interceptors\\AspectInterceptorSelector.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Interceptors\\AspectInterceptorSelector.cs",
+              "ToolTip": "C:\\Users\\ELEYDEV\\Desktop\\CarRental_BackEnd\\Core\\Utilities\\Interceptors\\AspectInterceptorSelector.cs",
+              "RelativeToolTip": "Core\\Utilities\\Interceptors\\AspectInterceptorSelector.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T08:21:22.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MethodInterception.cs",
+              "DocumentMoniker": "C:\\Users\\ELEYDEV\\Desktop\\CarRental_BackEnd\\Core\\Utilities\\Interceptors\\MethodInterception.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Interceptors\\MethodInterception.cs",
+              "ToolTip": "C:\\Users\\ELEYDEV\\Desktop\\CarRental_BackEnd\\Core\\Utilities\\Interceptors\\MethodInterception.cs",
+              "RelativeToolTip": "Core\\Utilities\\Interceptors\\MethodInterception.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAswBsAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T08:21:03.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MethodInterceptionBaseAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\ELEYDEV\\Desktop\\CarRental_BackEnd\\Core\\Utilities\\Interceptors\\MethodInterceptionBaseAttribute.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Interceptors\\MethodInterceptionBaseAttribute.cs",
+              "ToolTip": "C:\\Users\\ELEYDEV\\Desktop\\CarRental_BackEnd\\Core\\Utilities\\Interceptors\\MethodInterceptionBaseAttribute.cs",
+              "RelativeToolTip": "Core\\Utilities\\Interceptors\\MethodInterceptionBaseAttribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T08:20:36.49Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

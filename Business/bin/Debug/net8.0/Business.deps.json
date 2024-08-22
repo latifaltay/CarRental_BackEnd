@@ -9,6 +9,7 @@
       "Business/1.0.0": {
         "dependencies": {
           "Autofac": "8.0.0",
+          "Autofac.Extensions.DependencyInjection": "9.0.0",
           "Autofac.Extras.DynamicProxy": "7.1.0",
           "Core": "1.0.0",
           "DataAccess": "1.0.0",
@@ -28,6 +29,18 @@
           "lib/net8.0/Autofac.dll": {
             "assemblyVersion": "8.0.0.0",
             "fileVersion": "8.0.0.0"
+          }
+        }
+      },
+      "Autofac.Extensions.DependencyInjection/9.0.0": {
+        "dependencies": {
+          "Autofac": "8.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Autofac.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.0.0"
           }
         }
       },
@@ -627,6 +640,9 @@
       },
       "Core/1.0.0": {
         "dependencies": {
+          "Autofac": "8.0.0",
+          "Autofac.Extensions.DependencyInjection": "9.0.0",
+          "Autofac.Extras.DynamicProxy": "7.1.0",
           "FluentValidation": "11.9.2",
           "Microsoft.EntityFrameworkCore": "8.0.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.7"
@@ -667,6 +683,13 @@
       "sha512": "sha512-qxVqJcl3fixxa5aZc9TmIuYTwooI9GCL5RzfUiTZtTlbAF3NcWz7bPeEyJEAyS/0qGhSyGnXeku2eiu/7L+3qw==",
       "path": "autofac/8.0.0",
       "hashPath": "autofac.8.0.0.nupkg.sha512"
+    },
+    "Autofac.Extensions.DependencyInjection/9.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tf+//4MBola256qaaVQqQ6tx2R57S8A8BFekRWNpHkpSFzRBPkU+/fEDUSrCjqldK/B2zRoDbsMcQmYy3PYGWg==",
+      "path": "autofac.extensions.dependencyinjection/9.0.0",
+      "hashPath": "autofac.extensions.dependencyinjection.9.0.0.nupkg.sha512"
     },
     "Autofac.Extras.DynamicProxy/7.1.0": {
       "type": "package",
