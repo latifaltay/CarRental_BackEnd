@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "rn3dw4MK0aHRa+K5PlC+6ZHkXblFNOCqJubiWPVElOPPgd6yGjmHemd0UZ0/dV7tDz/D7V+8Iyf8Hl2YreBz5w==",
+=======
+  "dgSpecHash": "HQRqndcPQlY=",
+>>>>>>> 3c9e86c044ed123d9fad52e410f4033b602e70d8
   "success": true,
   "projectFilePath": "C:\\Users\\ELEYDEV\\Desktop\\CarRental_BackEnd\\Web API\\Web API.csproj",
   "expectedPackageFiles": [

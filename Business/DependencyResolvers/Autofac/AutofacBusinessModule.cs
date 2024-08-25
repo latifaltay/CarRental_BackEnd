@@ -3,7 +3,10 @@ using Autofac.Extras.DynamicProxy;
 using Business.Abstract;
 using Business.Concrete;
 using Castle.DynamicProxy;
+<<<<<<< HEAD
 using Core.Utilities.Helpers.FileHelper;
+=======
+>>>>>>> 3c9e86c044ed123d9fad52e410f4033b602e70d8
 using Core.Utilities.Interceptors;
 using DataAccess.Abstract;
 using DataAccess.Concrete.EntityFramework;
@@ -40,12 +43,15 @@ namespace Business.DependencyResolvers.Autofac
             builder.RegisterType<EfUserDal>().As<IUserDal>().SingleInstance();
 
 
+<<<<<<< HEAD
             builder.RegisterType<CarImageManager>().As<ICarImageService>().SingleInstance();
             builder.RegisterType<EfCarImageDal>().As<ICarImageDal>().SingleInstance();
 
             builder.RegisterType<FileHelperManager>().As<IFileHelper>().SingleInstance();
 
 
+=======
+>>>>>>> 3c9e86c044ed123d9fad52e410f4033b602e70d8
             var assembly = System.Reflection.Assembly.GetExecutingAssembly();
 
             builder.RegisterAssemblyTypes(assembly).AsImplementedInterfaces()
@@ -53,6 +59,11 @@ namespace Business.DependencyResolvers.Autofac
                 {
                     Selector = new AspectInterceptorSelector()
                 }).SingleInstance();
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 3c9e86c044ed123d9fad52e410f4033b602e70d8
         }
 
     }

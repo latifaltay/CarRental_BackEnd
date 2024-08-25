@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "wgxzgO+q2nFeC57RZsSL97VfUVDjAlrjgwMUguQHq6FVvedmnp7+XpdZFd9JKoyZ6E9g01dZ3NI3AReNRgypsQ==",
+=======
+  "dgSpecHash": "FLADAlyE7Kk=",
+>>>>>>> 3c9e86c044ed123d9fad52e410f4033b602e70d8
   "success": true,
   "projectFilePath": "C:\\Users\\ELEYDEV\\Desktop\\CarRental_BackEnd\\ConsoleUI\\ConsoleUI.csproj",
   "expectedPackageFiles": [

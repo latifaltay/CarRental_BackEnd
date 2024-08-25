@@ -1,4 +1,5 @@
 ﻿using Castle.DynamicProxy;
+<<<<<<< HEAD
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using System;
 using System.Collections.Generic;
@@ -12,6 +13,16 @@ namespace Core.Utilities.Interceptors
     public class AspectInterceptorSelector : IInterceptorSelector
     {
         public Castle.DynamicProxy.IInterceptor[] SelectInterceptors(Type type, MethodInfo method, Castle.DynamicProxy.IInterceptor[] interceptors)
+=======
+using System.Reflection;
+
+namespace Core.Utilities.Interceptors
+{
+    
+    public class AspectInterceptorSelector : IInterceptorSelector
+    {
+        public IInterceptor[] SelectInterceptors(Type type, MethodInfo method, IInterceptor[] interceptors)
+>>>>>>> 3c9e86c044ed123d9fad52e410f4033b602e70d8
         {
             var classAttributes = type.GetCustomAttributes<MethodInterceptionBaseAttribute>
                 (true).ToList();
@@ -23,3 +34,7 @@ namespace Core.Utilities.Interceptors
         }
     }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3c9e86c044ed123d9fad52e410f4033b602e70d8

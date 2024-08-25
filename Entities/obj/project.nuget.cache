@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "9BZ3Sht4hjkmjlpmLyE8EkZerkfU9CCvAbm8S/8flAnFhc3v9bih15MGS75wVKP6Of4D8imE2Fzjm08qx6MopQ==",
+=======
+  "dgSpecHash": "Oglso+cWdPE=",
+>>>>>>> 3c9e86c044ed123d9fad52e410f4033b602e70d8
   "success": true,
   "projectFilePath": "C:\\Users\\ELEYDEV\\Desktop\\CarRental_BackEnd\\Entities\\Entities.csproj",
   "expectedPackageFiles": [

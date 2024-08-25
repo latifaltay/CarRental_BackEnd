@@ -1,4 +1,5 @@
 ﻿using Castle.DynamicProxy;
+<<<<<<< HEAD
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,6 +8,12 @@ using System.Threading.Tasks;
 
 namespace Core.Utilities.Interceptors
 {
+=======
+
+namespace Core.Utilities.Interceptors
+{
+    
+>>>>>>> 3c9e86c044ed123d9fad52e410f4033b602e70d8
     public abstract class MethodInterception : MethodInterceptionBaseAttribute
     {
         protected virtual void OnBefore(IInvocation invocation) { }
@@ -38,3 +45,7 @@ namespace Core.Utilities.Interceptors
         }
     }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3c9e86c044ed123d9fad52e410f4033b602e70d8

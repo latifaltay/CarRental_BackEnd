@@ -23,6 +23,11 @@ namespace Business.Concrete
             _carValidator = carValidator;
         }
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 3c9e86c044ed123d9fad52e410f4033b602e70d8
         [ValidationAspect(typeof(CarValidator))]
         public IResult Add(Car car)
         {
@@ -31,6 +36,8 @@ namespace Business.Concrete
             _carDal.Add(car);
             return new Result(true, Messages.CarAdded);
         }
+
+
 
         public IResult Delete(Car car)
         {

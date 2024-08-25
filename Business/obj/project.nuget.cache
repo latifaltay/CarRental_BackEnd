@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "Gdt9x1HENXo6zklB8ZtQaAqXeIo33LGBhwM+RHkRJj5AOAlKmoCV94KqypZWBygTktVFskL7ZWqdErlcZE2GqQ==",
+=======
+  "dgSpecHash": "s8wbbi5IhFE=",
+>>>>>>> 3c9e86c044ed123d9fad52e410f4033b602e70d8
   "success": true,
   "projectFilePath": "C:\\Users\\ELEYDEV\\Desktop\\CarRental_BackEnd\\Business\\Business.csproj",
   "expectedPackageFiles": [
