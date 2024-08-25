@@ -62,8 +62,14 @@ namespace Business.Constants
         public static string UserFetched = "Kullanıcı başarıyla getirildi.";
         public static string EmailInvalid = "E-posta adresi geçersiz.";
         public static string PasswordInvalid = "Parola geçersiz. Güvenlik gereksinimlerini karşılamalıdır.";
-        
 
+        // for car image
+        public static string CarImageAdded = "Araba resmi eklendi";
+        public static string CarImageDeleted = "Araba resmi silindi";
+        public static string CarImageUpdated = "Araba resmi güncellendi";
+        public static string CarImageInvalid = "Araba resmi geçersiz";
+        public static string CarImagesListed = "Araba resimleri listelendi";
+        public static string CarImageLimitExceeded = "Araba için maksimum resim sayısına ulaşıldı";
 
         //For maintenance
         public static string MaintenanceTime = "Sistem bakımda. Lütfen daha sonra tekrar deneyin.";
